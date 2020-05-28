@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Segoe UI Light";
+}
+hr {
+    width: 80%;
+    margin-top: 20px;
+}
+body {
+    background-color: #20203e;
+    color: white;
+}
+header {
+    background-color: #29295a;;
+    position: sticky;
+    top: 0;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+.container a {
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+
+}
+.content {
+    margin: auto 0px;
+}
+.color1 {
+    color: dodgerblue;
+}
+.color2 {
+    color: white;
+}
+.singer {
+    width: 80%;
+    margin: auto;
+}
+.layout {
+    display: inline-block;
+    font-size: 0;
+    width: 100%;
+
+}
+.top {
+    width: 100%;
+}
+.bot {
+    width: 100%;
+}
+.top h2 {
+    font-size: 25px;
+}
+.row {
+    font-size: 0;
+    width: 100%;
+}
+figure {
+    margin: 0px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+}
+
+figcaption h3 {
+    font-size: 19px;
+    line-height: 40px;
+}
+.bot h4 {
+    margin-top: 25px;
+    font-size: 110%;
+}
+.col-3 {
+    margin-bottom: 20px;
+}
+.col-3 h4 {
+    font-size: 18px;
+}
+.page {
+    text-align: center;
+}
+.page a {
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.page a:hover {
+    background-color: black;
+    color: white;
+}
+.trending {
+    width: 55%;
+    text-align: center;
+    margin:40px auto;
+    color: white;
+}
+.trending h1 {
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.trending h3 {
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.trending h4 {
+    font-size: 110%;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.wide {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.col {
+    margin-left: 10px;
+}
+.col h2 {
+    font-size: 130%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.role {
+    width: 55%;
+    text-align: center;
+    margin:40px auto;
+    color: white;
+}
+.role h1 {
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: aqua;
+
+}
+.role h2 {
+    ffont-size: 180%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.role h3 {
+    font-size: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 25%;
+    }
+}
